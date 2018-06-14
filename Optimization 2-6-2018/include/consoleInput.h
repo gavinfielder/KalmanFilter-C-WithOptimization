@@ -1,0 +1,5 @@
+#ifndef CONSOLEINPUT_H
+#define CONSOLEINPUT_H
+
+
+#endif // CONSOLEINPUT_H

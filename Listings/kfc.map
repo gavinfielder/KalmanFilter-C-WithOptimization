@@ -1,0 +1,23 @@
+Component: ARM Compiler 5.06 update 5 (build 528) Tool: armlink [4d35e2]
+
+==============================================================================
+
+Section Cross References
+
+    matrix.o(i.diff_MatMat) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    matrix.o(i.inv) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    matrix.o(i.multiply_MatMat) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    matrix.o(i.sum_MatMat) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    matrix.o(i.transpose) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    kalmanfilter.o(i.kalmanFilter) refers to rt_memcpy_w.o(.text) for __aeabi_memcpy4
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.multiply_MatVec) for multiply_MatVec
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.multiply_MatMat) for multiply_MatMat
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.sum_MatMat) for sum_MatMat
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.inv) for inv
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.diff_VecVec) for diff_VecVec
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.sum_VecVec) for sum_VecVec
+    kalmanfilter.o(i.kalmanFilter) refers to matrix.o(i.diff_MatMat) for diff_MatMat
+    kalmanfilter.o(i.kalmanFilter) refers to kalmanfilter.o(.bss) for prev_x
+    kalmanfilter.o(i.kalmanFilter) refers to kalmanfilter.o(.data) for prev_covar_x
+    kalmanfilter.o(i.kalmanFilter) refers to kalmanfilter.o(.constdata) for Rx
+

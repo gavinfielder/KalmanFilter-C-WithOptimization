@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1518938567 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\kalmanfilter.c
+	<stdint.h>
+	<math.h>
+	"matrix.h"
+	"kalmanfilter.h"
+
+1517559767 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\matrix.h
+
+1517559767 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\matrix.c
+	"matrix.h"
+
+1518938556 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\main.c
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+	"kalmanfilter.h"
+
+1518938556 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\kalmanfilter.h
+	"matrix.h"
+	<stdint.h>
+
+1517561904 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\kalmanfilter_choi.c
+	<stdint.h>
+	"matrix.h"
+	"kalmanfilter_choi.h"
+	<math.h>
+
+1517560758 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\codeblocks_testing\kalman_filter_test\kalmanfilter_choi.h
+	"matrix.h"
+	<stdint.h>
+

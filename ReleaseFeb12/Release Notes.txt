@@ -1,0 +1,15 @@
+Kalman filter for the unmanned bicycle project
+Using the derivative projection model
+
+@author Gavin Fielder
+@date 2/12/2018
+
+This release should function serviceably for both accelerometer and gyro filtering. 
+
+I ran into a problem while optimizing: due to data unreliability, accel_y, accel_z, and gyro_z were unable to be sufficiently optimized. For the time being, I've used accel_x optimized values for process noise Q for all the accelerometer axes and gyro_y optimized values for Q for both gyro axes. This seems to function serviceably in most cases. 
+
+We might have better results once we have reliable data to optimize against. 
+
+gyro_y comes before gyro_z -- I'm pretty sure this is the same order as the data is received in matlab, so according to the data collection script:
+     - gyro_y  should be  gyro_roll
+     - gyro_z  should be  gyro_yaw

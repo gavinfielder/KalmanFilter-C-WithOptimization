@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1517985686 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\kalmanfilter.c
+	<stdint.h>
+	"matrix.h"
+	"kalmanfilter.h"
+
+1517989492 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\matrix.h
+
+1513661152 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\kalmanfilter.h
+	"matrix.h"
+	<stdint.h>
+
+1517986357 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"matrix.h"
+	"kalmanfilter.h"
+	"kalmanfilter_choi.h"
+	"consoleInput.h"
+	<stdio.h>
+	<stdlib.h>
+
+1517559767 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\matrix.c
+	"matrix.h"
+
+1517985686 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\kalmanfilter_choi.c
+	<stdint.h>
+	"matrix.h"
+	"kalmanfilter_choi.h"
+	<math.h>
+
+1517989119 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\kalmanfilter_choi.h
+	"matrix.h"
+	<stdint.h>
+
+1517986262 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\include\consoleinput.h
+
+1518212015 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\consoleinput.cpp
+	<stdlib.h>
+	<string>
+	<iostream>
+	<fstream>
+	<sstream>
+	<math.h>
+	<stdint.h>
+	<iomanip>
+	"consoleInput.h"
+	"matrix.h"
+	"kf_gav.h"
+	"kf_choi.h"
+
+1517986262 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\consoleinput.h
+
+1518210667 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\src\kf_choi.cpp
+	<stdint.h>
+	"matrix-cpp.h"
+	"kf_choi.h"
+	<math.h>
+
+1517989492 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\include\matrix-cpp.h
+
+1518210967 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\include\kf_choi.h
+	"matrix-cpp.h"
+	<stdint.h>
+
+1517989835 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\src\kf_gav.cpp
+	<stdint.h>
+	"matrix-cpp.h"
+	"kf_gav.h"
+
+1517989835 c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\include\kf_gav.h
+	"matrix-cpp.h"
+	<stdint.h>
+
+1517989616 source:c:\users\gavin\documents\self-balancing bicycle project-20171110t225134z-001\kalman filter in c\optimization\src\matrix-cpp.cpp
+	"matrix-cpp.h"
+
